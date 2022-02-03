@@ -70,7 +70,7 @@ nav > a {
 /* ---------------- Wrapper ---------------- */
 #content {
     background-size: cover;
-    background: linear-gradient(72.44deg, rgba(0, 0, 0, 0.85) 0%, rgba(0, 0, 0, 0) 100%), linear-gradient(237.67deg, rgba(0, 0, 0, 0) 30.62%, rgba(121, 58, 37, 0.47) 92.77%), url("images/sebastian-schuppik-H7xTpvBjJS4-unsplash-m.jpg") no-repeat center;
+    background: linear-gradient(72.44deg, rgba(0, 0, 0, 0.85) 0%, rgba(0, 0, 0, 0) 100%), linear-gradient(237.67deg, rgba(0, 0, 0, 0) 30.62%, rgba(121, 58, 37, 0.47) 92.77%), url("images/hero-img.jpg") no-repeat center;
     display: flex;
     flex-direction: column;
     margin: 0;
