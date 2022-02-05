@@ -1,7 +1,13 @@
 let btn;
 
-const createHome = () => {
+const initHome = () => {
     const main = document.createElement("main");
+    main.append(createHome());
+
+    return main;
+};
+
+const createHome = () => {
     const heroSection = document.createElement("section");
     heroSection.id = "hero-content";
     const subtitle = document.createElement("h2");
@@ -23,11 +29,11 @@ const createHome = () => {
     btn.textContent = "Check Menu";
     
     heroSection.append(subtitle, heading, copy, btn);
-    main.append(heroSection);
 
-    return main;
+    return heroSection;
 };
 
 export {
-    createHome
+    createHome,
+    initHome,
 };
