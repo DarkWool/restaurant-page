@@ -16,9 +16,8 @@ html, body {
 main {
     display: flex;
     flex-direction: column;
-    flex-grow: 1;
     justify-content: center;
-    margin: 0 auto;
+    margin: auto;
     max-width: 1500px;
     width: 100%;
 }
@@ -33,10 +32,13 @@ body {
     margin: 0;
 }
 
-p {
-    font-size: 20px;
-    font-size: 3.2rem;
-    line-height: 1.1;
+h2, h3, h4 {
+    font-family: Rochester;
+}
+
+p, td {
+    font-size: 1.6rem;
+    line-height: 1.2;
 }
 
 button {
@@ -65,6 +67,15 @@ nav > a {
     margin: 0px;
     padding: 10px;
     text-decoration: none;
+}
+
+table {
+    max-width: 500px;
+    width: 100%;
+}
+
+td {
+    padding: 5px;
 }
 
 /* ---------------- Wrapper ---------------- */
@@ -129,7 +140,7 @@ nav > a {
 }
 
 footer {
-    margin: auto;
+    margin: 25px auto 0;
     padding: 15px;
     margin-top: 25px;
 }
@@ -152,7 +163,8 @@ footer p {
     max-width: 1600px;
 }
 
-#menu-content {
+#menu-content,
+.about-content {
     background-color: white;
     padding: 45px;
     border-radius: 6px;
@@ -166,13 +178,17 @@ footer p {
     font-family: Rochester;
 }
 
-.items-container {
+.items-container,
+.about-page {
     display: flex;
     flex-wrap: wrap;
-    gap: 40px;
-    padding: 60px;
     border: 4px solid black;
     border-radius: 5px;
+}
+
+.items-container {
+    gap: 40px;
+    padding: 60px;
 }
 
 .items-container article {
@@ -232,6 +248,41 @@ footer p {
     background-color: HSL(0, 0%, 15%);
 }
 
+/* ---------------- About section ---------------- */
+.map {
+    display: flex;
+    width: 50%;
+    background-color: hsl(0, 0%, 12%);
+}
+
+.a-active {
+    background-color: white;
+    padding: 45px;
+    border-radius: 6px;
+}
+
+.about-info {
+    width: 50%;
+    margin: 0;
+}
+
+.map,
+.about-info {
+    padding: 50px;
+}
+
+.about-title {
+    font-size: 5rem;
+}
+
+.about-subtitle {
+    font-size: 4rem;
+}
+
+iframe {
+    display: block;
+    margin: auto;
+}
 
 /* ---------------- Utilities ---------------- */
 .bold-txt {

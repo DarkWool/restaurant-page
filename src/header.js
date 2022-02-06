@@ -1,5 +1,6 @@
 import { createHome } from "./home.js";
 import { createMenu } from "./menu.js";
+import { createAbout } from "./about.js";
 
 const createHeader = () => {
     const header = document.createElement("header");
@@ -29,7 +30,7 @@ function appendContent(e) {
     // Removes the main content, not the header nor footer.
     const main = document.getElementsByTagName("main");
     main[0].textContent = "";
-    main[0].innerHTML = "";
+    main[0].removeAttribute("class");
 
     // Check the id of the button that was clicked and append the
     // appropiate content to the main node.
@@ -42,6 +43,8 @@ function appendContent(e) {
             main[0].append(createMenu());
             break;
         case "about":
+            main[0].classList.add("a-active");
+            main[0].append(createAbout());
             break;
     }
 }
