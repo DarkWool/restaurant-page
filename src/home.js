@@ -1,5 +1,3 @@
-let btn;
-
 const initHome = () => {
     const main = document.createElement("main");
     main.append(createHome());
@@ -23,7 +21,8 @@ const createHome = () => {
     copy.textContent = `Lorem ipsum dolor sit amet, consectetur adipiscing elit.
     Venenatis, gravida venenatis in tellus enim sit tellus ac leo. Massa amet nunc accumsan interdum volutpat massa nunc.`;
 
-    btn = document.createElement("button");
+    const btn = document.createElement("button");
+    btn.id = "heroButton";
     btn.type = "button";
     btn.classList.add("hero-btn");
     btn.textContent = "Check Menu";
@@ -35,5 +34,5 @@ const createHome = () => {
 
 export {
     createHome,
-    initHome,
+    initHome
 };

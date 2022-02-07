@@ -25,7 +25,7 @@ const items = [
     },
     {
         title: "Mocha Coffee",
-        description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tempus senectus suscipit mauris cras. Risus a suspendisse adipiscing risus, sodales quis faucibus gravida. Neque nibh nec ipsum enim. Quam non fermentum, nascetur facilisis amet volutpat pharetra, dui.`,
+        description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tempus senectus suscipit mauris cras. Neque nibh nec ipsum enim.`,
         image: `images/item-01.jpeg`,
         price: "4.99"
     },
@@ -84,4 +84,4 @@ const createMenu = () => {
 
 export {
     createMenu
-}
+};
