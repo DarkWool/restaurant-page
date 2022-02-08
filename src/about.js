@@ -1,5 +1,9 @@
-// Another approach, first initialize the variables and then use cloneNode deep
-// to return a exact copy, somewhat like copying a template.
+/*
+    Another approach, first initialize the variables and then use cloneNode deep
+    to return a exact copy, somewhat like copying a template.
+    This approach generates the nodes from the beginning wheter or not the user clicks on the "about" section,
+    while in other sections like "menu" generates them ONLY WHEN the user clicks on the section.
+*/
 const section = document.createElement("section");
 const mapSection = document.createElement("div");
 const infoSection = document.createElement("section");
