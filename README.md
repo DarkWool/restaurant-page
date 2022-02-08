@@ -1,6 +1,6 @@
 # Restaurant Page Project, [view live](https://darkwool.github.io/restaurant-page/)
 
-This was a project made for The Odin Project curriculum, our goal for this one was to make use of webpack and to generate all the pages dynamically with Javascript using modules.
+This was a project made for The Odin Project curriculum, our goal for this one was to make use of `webpack` and to generate all the pages dynamically with Javascript using modules.
 
 ## Specifications
 
@@ -22,3 +22,9 @@ Check the original page of the assignment [here.](https://www.theodinproject.com
 1. How to dynamically generate the entire contents of a page.
 1. This was my first time using webpack, learned a lot of things with this!
 1. How to use and why a document fragment is a good idea.
+
+## Credits
+
+1. Coffee shop hero image: Photo by [Sebastian Schuppik](https://unsplash.com/@supa_95?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash.](https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
+1. Coffee Cup image: [PikWizard.](https://pikwizard.com/photo/cappuccino-coffee-cup/f39021293f7dae57c9e79871beda6510)
+1. Ornament image: [Curls vector created by macrovector - www.freepik.com](https://www.freepik.com/free-vector/vector-line-vintage-scroll-items-ornate-design_13381300.htm)
