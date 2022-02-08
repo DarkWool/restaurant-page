@@ -42,6 +42,7 @@ function switchTabs(e) {
             heroButton.addEventListener("click", switchTabs);
             break;
         case "heroButton":
+            menuAnchor.classList.add("point");
         case "menu":
             main.classList.add("menu-active");
             main.append(createMenu());
