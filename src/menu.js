@@ -40,11 +40,21 @@ const items = [
 const createMenu = () => {
     const section = document.createElement("section");
     const heading = document.createElement("h1");
+    const headerContainer = document.createElement("div");
     const itemsContainer = document.createElement("div");
+
+    // Create the ornaments for the menu header.
+    const leftOrnament = document.createElement("img");
+    leftOrnament.src = "images/menu-ornament.png";
+    leftOrnament.classList.add("menu-orn");
+    const rightOrnament = leftOrnament.cloneNode(false);
+    leftOrnament.classList.add("menu-orn-r");
 
     section.id = "menu-content";
     heading.textContent = "Our Menu";
+    headerContainer.classList.add("menu-header");
     
+    // Creation of every menu item.
     const item = document.createElement("article");
     const imageContainer = document.createElement("div");
     const descriptionContainer = document.createElement("div");
@@ -77,7 +87,9 @@ const createMenu = () => {
         itemsContainer.append(item.cloneNode(true));
     });
 
-    section.append(heading, itemsContainer);
+    // Join the nodes for the header.
+    headerContainer.append(leftOrnament, heading, rightOrnament);
+    section.append(headerContainer, itemsContainer);
 
     return section;
 };
