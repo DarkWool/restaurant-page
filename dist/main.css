@@ -14,8 +14,8 @@
     --font-medium: 16px;
     --font-md-lg: 18px;
     --font-large: 24px;
-    --accent: hsl(24, 90%, 37%);
-    --headerAccent: hsl(24, 100%, 55%);
+    --accent: hsl(15, 100%, 39%);
+    --headerAccent: hsl(16.9, 100%, 47.5%);
     --darkColor: hsl(220, 10%, 12%);
 }
 
@@ -63,7 +63,7 @@ header {
 nav {
     align-items: center;
     display: flex;
-    font-size: var(--font-large);
+    font-size: 20px;
     font-weight: 500;
     height: 100%;
     justify-content: space-evenly;
@@ -73,7 +73,6 @@ nav {
 
 nav > a {
     color: white;
-    font-family: "Playfair Display";
     margin: 0px;
     padding: 10px;
     text-decoration: none;
@@ -136,7 +135,7 @@ td {
 }
 
 .hero-subtitle {
-    color: var(--accent);
+    color: var(--headerAccent);
     font-size: 5.6rem;
     font-weight: 300;
     line-height: 1;
@@ -165,7 +164,7 @@ td {
 }
 
 .hero-btn:hover {
-    background-color: hsl(24, 90%, 25%);
+    background-color: hsl(15, 100%, 27%);
 }
 
 footer {
